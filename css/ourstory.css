@@ -1,0 +1,37 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+
+
+
+.first{
+  margin-top: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ourstory p{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #9b7762;
+  font-family: "myFontLight";
+  font-size: 45px;
+  font-weight: bold;
+  /* letter-spacing: 5px; */
+}
+.ourstory span{
+  margin: 10px 50px 15px 50px;
+  color: #221122;
+  font-family: "myFontLight";
+  font-size: 18px;
+}
+.titleimg{
+
+}
+
+.titleimg img{
+  width: 880px;
+  overflow: hidden;
+}

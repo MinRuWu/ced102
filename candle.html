@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="utf-8">
+  <title>Parfum</title>
+  <link rel="stylesheet" href="./css/candle.css">
+  <link rel="stylesheet" type="text/css" href="./slickall/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./slickall/slick/slick-theme.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<style>
+  @font-face {
+    font-family: "myFontBold";
+    src: url("./fonts/Sk-Modernist-Bold.otf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "myFontMono";
+    src: url("./fonts/Sk-Modernist-Mono.otf");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "myFontLight";
+    src: url("./fonts/Sk-Modernist-Regular.otf");
+    font-display: swap;
+  }
+</style>
+
+<body>
+
+  <!-- ----header---- -->
+  <header class="header">
+
+    <nav class="nav">
+      <ul class="link_list">
+        <li><a href="#" class="link_p">NEW</a></li>
+        <li><a href="./candle.html" class="link_p">CANDLE</a></li>
+        <li><a href="./index.html" class="header_logo"><img src="./image/logo_header.svg"></a></li>
+        <li><a href="./lab.html" class="link_p">LAB</a></li>
+        <li><a href="./ourstory.html" class="link_p">ABOUT US</a></li>
+      </ul>
+    </nav>
+
+    <div class="function_icon">
+      <ul>
+        <input type="search" id="search" placeholder="Search..." />
+        <li class="account_icon"><a href="./account.html" class="function_icon"><img src="./image/01account.png"></a>
+        </li>
+        <li class="heart_icon"><a href="./wishlist.html" class="function_icon"><img src="./image/02heart.png"></a>
+        </li>
+        <li class="cart_icon"><a href="./cart.html" class="function_icon"><img src="./image/03cart.png"></a>
+        </li>
+      </ul>
+    </div>
+
+  </header>
+
+  <!-- <div class="breadcrumb">
+    <ol class="breadcrumb_list">
+      <li><a href="#">首頁</a></li>
+      <li><a href="#">分類頁</a></li>
+      <li><a href="#">商品頁</a></li>
+    </ol>
+  </div> -->
+
+  <!-- ----candle---- -->
+  <div class="candle">
+
+    <div class="candle_info">
+      <div class="infop">
+        <p>CANDLE</p>
+        <h3>Signature Perfume </h3>
+        <span>Parfum’s signature line, with five unique and beautiful fragrances that contain
+          <br>our identity and originality.
+          <br>Click below images for more infomations.
+        </span>
+      </div>
+
+      <div class="info">
+        <div class="infoimg">
+          <div class="candleinfoimg">
+            <img src="./image/candleinfo1.png">
+          </div>
+        </div>
+        <div class="infoimg">
+          <div class="candleinfoimg">
+            <img src="./image/candleinfo2.png">
+          </div>
+        </div>
+        <div class="infoimg">
+          <div class="candleinfoimg">
+            <img src="./image/candleinfo3.png">
+          </div>
+        </div>
+        <div class="infoimg">
+          <div class="candleinfoimg">
+            <img src="./image/candleinfo4.png">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="info_dist">
+
+    <div class="info_card">
+      <div class="info_card_unhover1">
+        <div class="candlepic"><img src="./image/candle/1.png"></div>
+        <span>SUSIE SALMON.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover1">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover2">
+        <div class="candlepic"><img src="./image/candle/2.png"></div>
+        <span>TOIT VERT.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover2">
+        <div class="cardp">
+          <p>
+            Immediately after opening the door to botanical garden B, I see a tall tropical tree. The top leaf was
+            almost touching the glass ceiling, and I bow because of the strain on the neck from looking up so high.
+            There are plants on both sides of the path, and as I walk further in, the moist, fresh scent from colorful
+            plants becomes stronger.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP Lemon, Tangerine, Grapefruit, Black Currant
+            <br>MIDDLE Basil, Iris
+            <br>BASE Patchouli, Vetiver
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover3">
+        <div class="candlepic"><img src="./image/candle/3.png"></div>
+        <span>MARINE ORCHID.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover3">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover4">
+        <div class="candlepic"><img src="./image/candle/4.png"></div>
+        <span>LUCY DIAMOND.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover4">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover5">
+        <div class="candlepic"><img src="./image/candle/5.png"></div>
+        <span>VIVIAN WARD.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover5">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover6">
+        <div class="candlepic"><img src="./image/candle/6.png"></div>
+        <span>ROLAND.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover6">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover7">
+        <div class="candlepic"><img src="./image/candle/7.png"></div>
+        <span>LUCIEN CARR.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover7">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover8">
+        <div class="candlepic"><img src="./image/candle/8.png"></div>
+        <span>WEGENER.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover8">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover9">
+        <div class="candlepic"><img src="./image/candle/9.png"></div>
+        <span>KYUJANG.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover9">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info_card">
+      <div class="info_card_unhover10">
+        <div class="candlepic"><img src="./image/candle/10.png"></div>
+        <span>LUMBERJACK.</span>
+        <div class="candleicon"><img src="./image/plusicon.png" id="plus" title="展開"></div>
+      </div>
+      <div class="info_card_hover10">
+        <div class="cardp">
+          <p>
+            Take off the wrapping off just-bought flowers and put them in a clear vase. Life slowly emanates from the
+            flowers to its surroundings. Take a bite out of an apple from the fridge, and again smell the flowers. I
+            slowly swallow the freshness rising from the flowers.
+          </p>
+        </div>
+        <div class="basicp">
+          <p>
+            <br>TOP - Lemon, Black Currant, Tangerine, Cut Grass
+            <br>MIDDLE - Lily of the Valley, Jasmine, Rose, Freesia, Peach, Apricot, Apple
+            <br>BASE - Sandal Wood, Cedar, Amber, White Musk
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ----footer---- -->
+  <footer class="footer">
+    <div class="footer__menu">
+      <ul>
+        <li class="footer__about"><a href="./ourstory.html"><span>About Us +</span></a></li>
+        <li class="footer__service"><a href="./storelocation.html"><span>STORE +</span></a></li>
+        <li class="footer__news"><a href="./VIPproject.html"><span>VIP Project +</span></a></li>
+        <li><a href="./How to buy.html"><span>How To Buy +</span></a></li>
+        <li><a href="./Privacy.html"><span>Policy +</span></a></li>
+      </ul>
+    </div>
+    <div class="footer__mainblock">
+      <div class="footer__left">
+        <div class="footer__slogan">
+          <a href="./index.html" class="footer_logo"><img src="./image/logo_header.svg"" alt=" logo"></a>
+        </div>
+        <div class="footer__copyright">
+          © Parfum All Rights Reserved.
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="footer__contact">
+          <p class="footer__phone">
+            Calling 0800-119-129
+          </p>
+          <p class="footer__email">wildflower@studio.com.tw</p>
+          <p class="footer__BH">MON.-FRI. 10:00am - 21:00pm</p>
+        </div>
+
+        <div class="footer__followus">
+          <ul>
+            <li><a href="https://www.facebook.com/PAZZO.tw/" class="social_img" target="_blank" alt="Facebook"><img
+                  src="./image/01facebook.svg" height="30"></a></li>
+            <li><a href="https://www.instagram.com/pazzo/" class="social_img" target="_blank" alt="Instagram"><img
+                  src="./image/02instagram.svg" height="30"></a></li>
+            <li><a href="https://line.me/ti/p/%40pazzo" class="social_img" target="_blank" alt="Line"><img
+                  src="./image/03pinterest.svg" height="30"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./slickall/slick/slick.min.js"></script>
+
+  <button type="button" id="BackTop" class="BackTop-arrow"></button>
+  <script>
+    $(function () {
+      $('#BackTop').click(function () {
+        $('html,body').animate({ scrollTop: 0 }, 333);
+      });
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 720) {
+          $('#BackTop').fadeIn(222);
+        } else {
+          $('#BackTop').stop().fadeOut(222);
+        }
+      }).scroll();
+    });
+  </script>
+
+  <button type="button" id="ToDown" class="toDown-arrow"></button>
+  <script>
+    $(function () {
+      $('#ToDown').click(function () {
+        $('html,body').animate({ scrollTop: 720 }, 333);
+      });
+      $(window).scroll(function () {
+        if ($(this).scrollTop() <= 620) {
+          $('#ToDown').fadeIn(222);
+        } else {
+          $('#ToDown').stop().fadeOut(222);
+        }
+      }).scroll();
+    });
+  </script>
+
+  <script>
+      let plus; //全域heart:
+      //加入收藏 或 取消收藏
+      function switchFavorite() {
+          let plus = document.getElementById("plus");
+          if(heart.title == "加入收藏") {
+          heart.src = "./image/plusicon.png";
+          heart.title = "取消收藏";
+          } else {  // 取消收藏
+          heart.src = "./image/minusicon.png";
+          heart.title = "加入收藏";
+          }
+      }
+      function init() {
+      //設定[加入收藏 或 取消收藏]的點案事件
+          heart = document.getElementById("plus");
+          heart.onclick = switchFavorite;
+      } //init
+      window.addEventListener("load", init, false)
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".info_card_unhover1").click(function () {
+        $(".info_card_hover1").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover2").click(function () {
+        $(".info_card_hover2").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover3").click(function () {
+        $(".info_card_hover3").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover4").click(function () {
+        $(".info_card_hover4").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover5").click(function () {
+        $(".info_card_hover5").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover6").click(function () {
+        $(".info_card_hover6").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover7").click(function () {
+        $(".info_card_hover7").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover8").click(function () {
+        $(".info_card_hover8").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover9").click(function () {
+        $(".info_card_hover9").slideToggle("slow");
+      });
+    });
+    $(document).ready(function () {
+      $(".info_card_unhover10").click(function () {
+        $(".info_card_hover10").slideToggle("slow");
+      });
+    });
+  </script>
+
+</body>
+
+
+</html>

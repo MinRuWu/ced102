@@ -1,0 +1,106 @@
+/* header背景 */
+header.header {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: #F2F0EE;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/* header logo */
+header.header a.header_logo {
+    display: flex;
+    max-width: 100%;
+}
+header.header a.header_logo img {
+    height: 90px;
+}
+
+/* header 文字位置 */
+header.header nav.nav {
+    text-align: center;
+    color: #212121;
+}
+
+/* 導覽列位置 */
+header.header nav.nav ul.link_list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+header.header nav.nav ul.link_list>li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+header.header nav.nav ul.link_list>li>a {
+    font-size: 13px;
+    font-family: "myFontLight";
+    color: #212121;
+    text-decoration: none;
+    padding: 0px 25px;
+    min-width: 100px;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px 10px; */
+}
+header.header nav.nav ul.link_list>li>a.-on {
+    color: white;
+}
+header.header nav.nav ul.link_list>li>a:hover {
+    color: #9b7762    ;
+}
+
+/* header icon */
+header.header div.function_icon {
+    position: absolute;
+    display: flex;
+    /* justify-content: flex-end; */
+    right: 100px;
+    margin-bottom: 0px;
+    transform: translateX(0px);
+}
+
+header.header div.function_icon ul {
+    /* padding:0; */
+    display: flex;
+    /* align-items: center; */
+    list-style: none;
+    /* justify-content: flex-end; */
+    /* margin-right: -50%; */
+    /* border: 1px solid red; */
+}
+
+header.header div.function_icon ul > a {
+    height: 25px;
+    margin: 0 5px;
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid red;
+}
+
+header.header div.function_icon img {
+    height: 25px;
+    margin-bottom: -5px;
+    padding: 0px 0px 0px 15px;
+}
+
+header.header div.function_icon input#search {
+    width: 80px;
+    height: 25px;
+    border: 0.5px solid #707070;
+    float: left;
+    color: #707070;
+    border-radius: 20px;
+    padding-left: 10px;
+}

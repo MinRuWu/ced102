@@ -1,0 +1,190 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+
+/* 文字 */
+.candle{
+  background: #F7F7F7;
+  height: auto;
+}
+.candle_info {
+  text-align: left;
+  display: flow-root;
+  padding: 140px 20px 20px 20px;
+}
+.infop{
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+}
+.candle_info p{
+  margin-bottom: 15px;
+  color: #9b7762;
+  font-family: "myFontLight";
+  font-size: 45px;
+  font-weight: bold;
+}
+.candle_info h3{
+  margin-bottom: 10px;
+  color: #9b7762;
+  font-family: "myFontLight";
+}
+.candle_info span{
+  margin-bottom: 50px;
+  color: #444444;
+  font-size: 14px;
+  font-family: "myFontLight";
+}
+
+/* 圖片並排 */
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.info .infoimg {
+  margin: 10px 10px;
+}
+.info .infoimg img{
+  height: auto;
+}
+
+/* .candle_img .candle_hover:hover{
+  cursor: pointer;
+  color: #FFF;
+
+  opacity:0.5;
+  -moz-opacity:0.5;
+  filter:alpha(opacity=50); 
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  -ms-transition:all .5s ease-in-out;
+} */
+
+/* 商品 */
+.info_dist {
+  background: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 30px 20px 30px 20px;
+}
+.info_card .info_card_unhover1, .info_card_unhover2, .info_card_unhover3, .info_card_unhover4, .info_card_unhover5, .info_card_unhover6, .info_card_unhover7, .info_card_unhover8, .info_card_unhover9, .info_card_unhover10
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 5px 20px 5px 20px;
+  width: 500px;
+  height: 250px;
+  background-color: #F7F2EB;
+  border-radius: 10px;
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+
+  cursor:pointer;
+  position: relative;
+}
+.candlepic img{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 25px 25px 25px 25px;
+}
+.info_card span{
+  margin-left: 25px;
+  margin-right: 25px;
+  font-family: "myFontLight";
+  font-size: 17px;
+  color: #444444;
+}
+
+.candle_more .btn a.btn{
+  /* background-color: white; */
+  border: 1px solid #9b7762;
+  color: #9b7762;
+  padding: .375rem 1.75rem;
+  border-radius: 1.25rem;
+  font-size: 20px;
+  transition: all .1s linear;
+  text-decoration: none;
+}
+.candleicon{
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.candleicon img{
+  height: auto;
+  width: 20px;
+}
+
+
+/* 展開的小卡 */
+.info_card .info_card_hover1, .info_card_hover2, .info_card_hover3, .info_card_hover4, .info_card_hover5, .info_card_hover6, .info_card_hover7, .info_card_hover8, .info_card_hover9, .info_card_hover10{
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+  margin: 5px 20px 10px 20px;
+
+  width: 500px;
+  background-color: #F7F2EB;
+  border-radius: 10px;
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2);
+}
+div.cardp{
+  font-family: "myFontLight";
+  font-size: 14px;
+  color: #444444;
+  line-height: 18px;
+}
+div.basicp{
+  font-family: "myFontLight";
+  font-size: 13px;
+  color: #9b7762;
+  line-height: 20px;
+}
+
+.flip{
+  margin:0px;
+  padding:5px;
+  text-align:center;
+  background:#E09697;
+  cursor:pointer;
+  font-family:'Arial';
+}
+.panel{
+  margin:0px;
+  padding:5px;
+  text-align:center;
+  background:#e5eecc;
+  border:solid 1px #c3c3c3;
+  display:none;
+  font-family:'Arial';
+}
+.flip1{
+  margin:0px;
+  padding:5px;
+  text-align:center;
+  background:#E09697;
+  cursor:pointer;
+  font-family:'Arial';
+}
+.panel1{
+  margin:0px;
+  padding:5px;
+  text-align:center;
+  background:#e5eecc;
+  border:solid 1px #c3c3c3;
+  display:none;
+  font-family:'Arial';
+}
+.flip3{
+  cursor:pointer;
+  background:#E09697;
+}
+.all > p {
+  display:none;
+}
